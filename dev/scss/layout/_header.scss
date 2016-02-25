@@ -5,7 +5,7 @@ header {
 .header-text {
 	display: flex;
 	flex-flow: row wrap;
-
+	color: red;
 	.header-text-title, .header-text-descript {
 		width: 50%;
 	}
