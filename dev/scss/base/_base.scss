@@ -34,6 +34,7 @@ span {
 
 p {
 	font-family: $font-family--body;
+	font-size: $base__font-size;
 }
 //SET THE HEADING SIZES
 @each $heading, $size in $heading-list {

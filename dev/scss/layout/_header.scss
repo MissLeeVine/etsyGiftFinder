@@ -1,0 +1,12 @@
+header {
+	height: 100vh;
+}
+
+.header-text {
+	display: flex;
+	flex-flow: row wrap;
+
+	.header-text-title, .header-text-descript {
+		width: 50%;
+	}
+}
