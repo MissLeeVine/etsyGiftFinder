@@ -1,6 +1,7 @@
 .resultArea {
 	display: none;
 	padding: 0;
+
 }
 
 .resultHeader {
@@ -50,7 +51,7 @@
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: space-between;
-	padding-top: 0;
+	padding: 0;
 	position: relative;
 }
 
