@@ -6,7 +6,7 @@
 
 .wrapper1,
 .wrapper3 {
-		background: $etsyOrange;
+	background: $etsyOrange;
 }
 
 .question2,
@@ -33,10 +33,9 @@
 .question {
 	margin: 0;
 	.wrapper {
-		padding: 7rem 0 0 0;
+		padding: 2rem 0 0 0;
 		@include mq(small) {
-			height: auto;
-			padding: 0 1rem;
+			padding: 5rem 1rem;
 		}
 
 	input[type=radio] {
@@ -57,6 +56,7 @@
 		width: 60%;
 		font-size: 2.6rem;
 		color: $white;
+		font-family: $font-family--header;
 
 		@include mq(small) {
 			order: 1;
@@ -132,7 +132,7 @@ label {
 }
 
 .square-answers {
-	@include size(100% 38.5rem);
+	@include size(100% 35rem);
 	margin-top: 30px;
 	background: white;
 	padding: 10px;
@@ -148,7 +148,7 @@ label {
 		position: relative;
 
 		img {
-			height: 27rem;
+			height: 25rem;
 		}
 	}
 tr
