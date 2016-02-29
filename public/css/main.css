@@ -19,7 +19,6 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
 
-
 /**
  * Remove default margin.
  */
@@ -445,6 +444,9 @@ footer {
     margin: 0; }
   footer a, footer a:visited {
     color: #EC6333; }
+
+.header {
+  padding-bottom: 7.5rem; }
 
 header .wrapper {
   margin: auto;
@@ -920,6 +922,7 @@ form.form-start {
 
 .resultContainer {
   padding-top: 0;
+  padding-bottom: 2.4rem;
   background-color: #dcdcd8;
   text-align: center; }
 
